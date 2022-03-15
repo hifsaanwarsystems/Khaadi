@@ -1,0 +1,29 @@
+{
+
+    "viewportWidth": 1300,
+
+    "viewportHeight": 1578,
+
+  
+
+    
+
+    "failOnStatusCode": false,
+
+    "chromeWebSecurity": false,
+
+ 
+
+    "retries": 1,
+    "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "Khaadi",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+  },
+  "video": true,
+
+  "projectId": "r1oy3r"
+}
