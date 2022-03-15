@@ -3,5 +3,8 @@
     "tickerClass":".ticker-column",
     "tickerText":"Spring Collection Now Online - SHOP NOW!",
     "tickerBackgroundColor":"rgb(241, 241, 241)",
-    "tickerColor":"rgb(45, 43, 42)"
+    "tickerColor":"rgb(45, 43, 42)",
+    "tickerTextXpath":"//p[@class='ticker-text']",
+    "shopNowCss":"underline solid rgb(45, 43, 42)",
+    "shopNowlink":"/new-in.html"
 }
