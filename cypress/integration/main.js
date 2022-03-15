@@ -17,8 +17,7 @@ ticker.tickerExist()
 
         cy.log('**[ Shop Now]()**')
         cy.get('.ticker-text > span > a').invoke('removeAttr', 'target').click({force:true})
-        cy.url()
-        .should('include.text','new-in.html')
+        cy.url().should('include','new-in.html')
     })
 
     
