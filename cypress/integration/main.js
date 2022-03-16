@@ -15,6 +15,8 @@ describe('Khaadi Home Page',function(){
         ticker.tickerText()
         ticker.shopNow()
     })
-
+it('Testing header',function(){
+    
+})
     
 })

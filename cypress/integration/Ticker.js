@@ -23,8 +23,10 @@ shopNow()
 {
     cy.log('**[ Shop Now Text and Css]()**')
     cy.get('span > a').should('exist').should('have.css','text-decoration',getvalue.shopNowCss)
+    cy.get('a > strong').should('have.text','SHOP NOW!')
     cy.get('.ticker-text > span > a').invoke('removeAttr', 'target').click({force:true})
     cy.url().should('include',getvalue.shopNowlink)
+    cy.contains('Rs').should('exist')
     cy.go('back')
 }
 
