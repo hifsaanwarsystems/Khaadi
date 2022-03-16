@@ -19,15 +19,11 @@ describe('Khaadi Home Page',function(){
         ticker.shopNow()
     })*/
 it('Testing header',function(){
-header.bestSellers()
-header.NewIn()
-//cy.get("a[href='https://pk.khaadi.com/buy/best-sellers.html%27']").trigger('mouseover')
-//cy.get("a[href='https://pk.khaadi.com/buy/best-sellers.html']").trigger("mouseover")
-//cy.get("a[href='https://pk.khaadi.com/buy/ready-to-wear-best-sellers.html']").should('be.visible')
+    header.logoCheck()
+    header.Lawn2022()
+    header.bestSellers()
+    header.NewIn()
 
-//cy.contains('Best Sellers').eq(0).hover()
-
-//cy.contains("nav", "ui-menu-item'").realHover('mouse')
 })
 
 
