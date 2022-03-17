@@ -17,7 +17,7 @@ describe('Khaadi Home Page',function(){
         ticker.tickerExist()
         ticker.tickerText()
         ticker.shopNow()
-    })*/
+    })
 it('Testing header',function(){
     header.logoCheck()
     header.Lawn2022()
@@ -26,9 +26,11 @@ it('Testing header',function(){
 
 })
 
-
+*/
 it('Testing banner',function()
 {
-//banner.bannerImages()
+banner.bannerImages()
+banner.bannerDots()
+banner.Secondscrollbanners()
 })
 })
