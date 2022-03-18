@@ -7,7 +7,7 @@ export class Header{
     logoCheck()
     {
       cy.log('**[ Checking Logo ]()**')
-      cy.get('.logo > img').should('exist').should('be.visible')
+      cy.get('.logo > img').should('exist').should('be.visible').should('have.css','width',"104px").should('have.css','height',"28px")
     }
 
     Lawn2022()
