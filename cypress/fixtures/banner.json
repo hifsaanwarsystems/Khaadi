@@ -3,12 +3,19 @@
     "homepromoimages":".home-promo-imgs",
     "imgLink":".image-link",
     "newInUnstitched":"https://pk.khaadi.com/new-in/unstitched.html",
+    "readytowear":"https://pk.khaadi.com/ready-to-wear/western/t-shirts.html",
     "videolink":"https://pk.khaadi.com/media/porto/web/tile-3-500x-500.mp4",
     "esfirLink":"https://pk.khaadi.com/accessories/khaadi-khaas-x-esfir.html",
     "esfirImg":"https://pk.khaadi.com/media/wysiwyg/khaadi/22-02-2022/2nd-scroll.jpg",
     "chapter2link":"https://pk.khaadi.com/chapter-2.html",
     "chapter2img":"https://pk.khaadi.com/media/wysiwyg/khaadi/2-2-2022/Plp_banner_1.jpg",
     "khaaslink":"https://pk.khaadi.com/ready-to-wear/khaas.html",
-    "khaasimg":"https://pk.khaadi.com/media/wysiwyg/khaadi/18-2-2022/new.jpg"
+    "khaasimg":"https://pk.khaadi.com/media/wysiwyg/khaadi/18-2-2022/new.jpg",
+    "accesories":"https://pk.khaadi.com/accessories/bags-shoes.html",
+    "accessoriesImg":"https://pk.khaadi.com/media/wysiwyg/khaadi/19-03-2022/2-_Shoes_2nd_Scroll_Place_holder.png",
+    "under2000":"https://pk.khaadi.com/buy/under-1999.html",
+    "under2000img":"https://pk.khaadi.com/media/wysiwyg/khaadi/19-03-2022/3-_Under_2k_2nd-scroll_1_.jpg",
+    "readytoweartops":"https://pk.khaadi.com/ready-to-wear/western/tops.html",
+    "readytoweartopsimg":"https://pk.khaadi.com/media/wysiwyg/khaadi/19-03-2022/4-_Western_Placeholder.png"
 
 }

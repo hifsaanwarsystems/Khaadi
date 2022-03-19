@@ -1,13 +1,18 @@
 /// <reference types="cypress"/>
 const getvalue=require('../fixtures/data.json')
+const temp=require('../fixtures/row.json')
+
+
 import {Ticker} from './Ticker'
 import { Header } from './Header'
 import { Banner } from './Banner'
 import { row} from './row'
+import { footer } from './footer'
 const ticker=new Ticker()
 const header= new Header()
 const banner=new Banner()
 const Row=new row()
+const Footer=new footer()
 describe('Khaadi Home Page',function(){
     it('Visiting site ',function()
     { 
@@ -15,7 +20,7 @@ describe('Khaadi Home Page',function(){
         
        
     })
- /* it('Testing Top Ticker',function(){
+ /*it('Testing Top Ticker',function(){
         ticker.tickerExist()
         ticker.tickerText()
         ticker.shopNow()
@@ -34,11 +39,21 @@ it('Testing banner',function()
 banner.bannerImages()
 banner.bannerDots()
 banner.Secondscrollbanners()
-})*/
+})
 
 it('Testing Rows',function()
 {
-Row.halfimage()
+Row.halfimage(temp.unstitchedhalf)
+Row.firstrow()
+
+
+})
+*/
+it('Testing Footer',function(){
+    Footer.footertop()
+    Footer.footertopinner()
+    Footer.footermiddle()
+
 })
 
 })
