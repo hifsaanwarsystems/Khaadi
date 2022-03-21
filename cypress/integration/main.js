@@ -20,40 +20,44 @@ describe('Khaadi Home Page',function(){
         
        
     })
- /*it('Testing Top Ticker',function(){
+/* it('Testing Top Ticker',function(){
         ticker.tickerExist()
         ticker.tickerText()
         ticker.shopNow()
-    })
+    }) 
 it('Testing header',function(){
-    header.logoCheck()
-    header.Lawn2022()
-    header.bestSellers()
-    header.NewIn()
+    //header.logoCheck()
+   // header.Lawn2022()
+    //header.bestSellers()
+    //header.NewIn()
+   // header.fabrics()
 
 })
 
-
+/*
 it('Testing banner',function()
 {
 banner.bannerImages()
 banner.bannerDots()
 banner.Secondscrollbanners()
 })
-
+*/
 it('Testing Rows',function()
 {
-Row.halfimage(temp.unstitchedhalf)
+Row.halfimage(temp.unstitchedhalf,0)
 Row.firstrow()
-
+Row.secondrow()
+Row.halfimage(temp.readytowear,1)
+Row.halfimage(temp.western,2)
+Row.thirdrow()
 
 })
-*/
+/*
 it('Testing Footer',function(){
     Footer.footertop()
     Footer.footertopinner()
     Footer.footermiddle()
 
 })
-
+*/
 })
